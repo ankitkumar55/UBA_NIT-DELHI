@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: hsl(0, 0%, 0%);
+}
+
+.card {
+    border: 1px solid #010000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: rgb(228, 145, 0);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    justify-content: center;
+    
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.card-body h4 {
+    color: #000000;
+}
+
+.card-body p {
+    margin-bottom: 15px;
+}
+
+.card-body ul {
+    list-style-type: none;
+}
+
+.card-body li {
+    margin-bottom: 5px;
+}
+
+/* Style the links */
+a {
+    color: #e56f0e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul li{
+    font-size: 18px;
+}
+
+.history h4{
+    border: 3px solid #130606;
+    background: #a7bdc1;
+    
+}
+.mission h4{
+    border: 3px solid #130606;
+   
+    background: #a7bdc1;
+    
+}
+.vission h4{
+    border: 3px solid #130606;
+    background: #a7bdc1;
+    
+}
+.goals h4{
+    border: 3px solid #130606;
+    background: #a7bdc1;
+    
+}
+.need h4{
+    border: 3px solid #130606;
+    background: #a7bdc1;
+    
+}
