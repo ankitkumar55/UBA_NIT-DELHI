@@ -1,0 +1,136 @@
+.contact {
+    margin: 10px;
+    padding-left: 0px;
+    padding-top: 11px;
+    /* padding-right: 0px; */
+    /* height: 100px; */
+    width: 1420px;
+}
+
+.contact h2 {
+    margin: 11px;
+    /* background-color: rgb(221, 255, 0); */
+    padding: 10px;
+}
+
+.map {
+    width: 1000px;
+    height: 90%;
+    margin-left: 25px;
+    margin-right: 700px;
+}
+
+.addform {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/luxa.org-opacity-changed-map3.jpeg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.addform::before{
+    content: "";
+    background-image: url(../images/map3.jpeg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact h2 {
+    background-color: gray;
+}
+
+.form {
+    /* margin-top: 5px; */
+    width: 50%;
+    padding: 30px;
+}
+
+.form h1 {
+    /* background-color: rgb(255, 115, 0); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* color: blue; */
+}
+
+form input {
+    height: 40px;
+    border-radius: 9px;
+    box-shadow: 10px 10px #f0f0f0;
+}
+
+form textarea {
+    border-radius: 9px;
+    box-shadow: 10px 10px #f0f0f0;
+}
+
+.gform form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.address {
+    /* margin-top: 5px; */
+    width: 50%;
+    padding: 30px;
+}
+
+.address h1 {
+    /* background-color: rgb(255, 115, 0); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* color: blue; */
+}
+
+.address p {
+    font-size: 22px;
+    margin: auto;
+    padding: 8px;
+}
+
+.address address {
+    padding-left: 11px;
+}
+
+.Address {
+    color: black;
+}
+
+.tagline {
+    color: black;
+}
+
+.phone {
+    color: black;
+}
+
+.emaillogo {
+    color: black;
+}
+
+.gform label {
+    padding: 10px;
+}
+
+.gform button {
+    margin: 10px;
+    margin-left: 265px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.gform button:hover {
+    background-color: rgb(255, 55, 0);
+}
+
+.number {
+    color: rgb(42, 49, 70);
+    font-style: oblique;
+}
+
+.email {
+    color: rgb(42, 49, 70);
+    font-style: oblique;
+}
