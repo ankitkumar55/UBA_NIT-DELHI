@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/bootstrap.css.map">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <title>About</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghoga, Delhi</title>
+</head>
+<style>
+  /* Body */
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+
+  /* Header */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+
+  /* Navigation */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  /* Article and Section */
+  article,
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  /* Subheadings */
+  h2,
+  h3 {
+    color: #333;
+  }
+
+  /* List Items */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  /* Paragraphs */
+
+
+  .Alipur h1 {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0c0c0cd2;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+  }
+
+  section {
+    background: #f1f7ff;
+    font-style: italic;
+
+  }
+
+  .slider-frame {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+
+    margin-top: 10px;
+
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+  }
+
+  /*---------- SLIDE ANIMATION --------------*/
+
+
+  @keyframes slide_animation {
+    0% {
+      left: 0px;
+    }
+
+    10% {
+      left: 0px;
+    }
+
+    20% {
+      left: 1200px;
+    }
+
+    30% {
+      left: 1200px;
+    }
+
+    40% {
+      left: 2400px;
+    }
+
+    50% {
+      left: 2400px;
+    }
+
+    60% {
+      left: 1200px;
+    }
+
+    70% {
+      left: 1200px;
+    }
+
+    80% {
+      left: 2400px;
+    }
+
+    90% {
+      left: 2400px;
+    }
+
+    100% {
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes slide_animation {
+    0% {
+      left: 0px;
+    }
+
+    10% {
+      left: 0px;
+    }
+
+    20% {
+      left: 1200px;
+    }
+
+    30% {
+      left: 1200px;
+    }
+
+    40% {
+      left: 2400px;
+    }
+
+    50% {
+      left: 2400px;
+    }
+
+    60% {
+      left: 1200px;
+    }
+
+    70% {
+      left: 1200px;
+    }
+
+    80% {
+      left: 2400px;
+    }
+
+    90% {
+      left: 2400px;
+    }
+
+    100% {
+      left: 0px;
+    }
+  }
+
+  .slide-images {
+    width: 6000px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+
+  }
+
+  .img-container {
+    height: 800px;
+    width: 1250px;
+    position: relative;
+    float: left;
+  }
+
+  .bg {
+    background-image: url(img/bg2.jpg);
+    color: #000000;
+
+  }
+
+  .bg #bgg {
+
+
+    opacity: 30%;
+
+  }
+
+  .location {
+
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+
+  }
+
+  .hw {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 15%;
+    margin-right: 10%;
+    width: 100%;
+    height: 450px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+  }
+
+  .village {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #e1e7f5;
+    /* padding-left: 15%;
+         margin-right: 15%;  */
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+
+  }
+
+  .gho {
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+  }
+
+  h2 {
+    margin-top: -19px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .location {
+      display: block;
+
+    }
+
+  }
+  .gmap{
+    width: 700px;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    margin-left: 35px;
+    /* margin-right: 20px; */
+  }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ghoga, Delhi</title>
+</head>
+
+<div class="navbar1">
+  <p> Unnat Bharat Abhiyan | NIT Delhi </p>
+  <p> mail: uba@nitdelhi.ac.in</p>
+
+</div>
+
+
+<div class="navbar2">
+
+  <div class="image1-names">
+    <a href="#"><img class="logo1" src="img/NITD_logo.jpg"></a>
+  </div>
+
+  <div class="header-names">
+    <h1> National Institute of Technology Delhi </h1>
+    <h2> UNNAT BHARAT ABHIYAN </h2>
+    <p>(A movement for progressive india) </br> A flagship programmes of ministry of Education, Government of India</p>
+  </div>
+
+  <div class="image2-names">
+    <a href="#"><img class="logo2" src="images/logo-left.png "></a>
+  </div>
+
+  <!--======= NAVIGATION =========-->
+
+  <!-- for dropdown anmation:
+        <header id="header" class="fixed-top transparent"> -->
+
+
+  <header id="header">
+
+    <nav id="navBar">
+      <div class="container">
+        <ul id="ownmenu" class="ownmenu">
+          <li class="active ownmenu-item"><a href="./index.html">Home</a> </li>
+          <li class="ownmenu-item">
+          <li class="ownmenu-item"><a href="about.html">About</a></li>
+          <ul class="dropdown">
+            <li><a href="#">About</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          </li>
+          <li class="dropdown ownmenu-item">
+            <a href="#" class="dropdown-toggle">Initiatives</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Initiatives.html">Education </a>
+              <a class="dropdown-item" href="Initiatives.html">Health</a>
+              <a class="dropdown-item" href="Initiatives.html">Technology </a>
+              <a class="dropdown-item" href="Initiatives.html">Awareness</a>
+              <a class="dropdown-item" href="Initiatives.html">Other </a>
+            </div>
+
+          </li>
+          <li class="dropdown ownmenu-item">
+            <a href="#" class="dropdown-toggle">Villages</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Alipur.html">Alipur</a>
+              <a class="dropdown-item" href="Bhorghad.html">Bhorgarh</a>
+              <a class="dropdown-item" href="Ghogha.html">Ghogha</a>
+              <a class="dropdown-item" href="Bankner.html">Bankner</a>
+              <a class="dropdown-item" href="Tikri_khurd.html">Tikri khurd</a>
+            </div>
+
+          </li>
+
+          <li class="ownmenu-item"><a href="#">Gallery</a></li>
+          <li class="ownmenu-item"><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <hr class="header-hr"> -->
+  </header>
+
+  <body>
+    <div class="Alipur">
+      <h1>Ghoga, Delhi</h1>
+    </div>
+    <!-- <nav>
+        <ul>
+            <li><a href="#Article">Article</a></li>
+            <li><a href="#Talk">Talk</a></li>
+            <li><a href="#Read">Read</a></li>
+            <li><a href="#Edit">Edit</a></li>
+            <li><a href="#ViewHistory">View history</a></li>
+        </ul>
+    </nav> -->
+
+    <section>
+      <h2>Ghoga</h2>
+
+      <body>
+
+
+        <div class="slider-frame">
+          <div class="slide-images">
+            <div class="img-container">
+              <img height="660px " width="1500px" src="img/ghogha1.jpg">
+            </div>
+            <div class="img-container">
+              <img height="660px " width="1500px" src="img/ghogha2.jpg">
+            </div>
+            <div class="img-container">
+              <img height="660px " width="1500px" src="img/ghogha3.jpg">
+            </div>
+            <div class="img-container">
+              <img height="600px " width="1500px" src="img/Sant_Gyaneshwar_Model_School_1528_Building_1.jpg">
+            </div>
+          </div>
+        </div>
+      </body>
+      <p class="gho">Ghogha is a Village at the bank of river Ganges and is located between the cities of Bhagalpur and
+        Kahalgaon. Pakkisarai is a village near to ghoga and comes under the jurisdiction of Ghoga Thana (sub police
+        station). It is well connected to both the towns by road and train and is at a distance of about 11 kilometers
+        from Kahalgaon and 24 kilometers from Bhagalpur. It is roughly a 15 minutes travel from Kahalgaon and 30-45
+        minutes travel from Bhagalpur. The growth of Kahalgaon NTPC and increase in the income level of Bhagalpur
+        residents has resulted in a flourish of Brick Kilns in this small village. About half of these Brick Kilns are
+        exactly located in the village of Pakkisarai. The main occupation of the village nevertheless is agriculture.
+        The higher than average literacy of the village is due to the location of a number of small schools within
+        walking distance to the village. Moreover, the Saint Joseph's School situated at Pakartalla, has become the
+        primary educational organisation, providing high-quality education to the children of Ghoga and Pakkisarai.
+        Vikramshila, located approximately 16 kilometers from Ghoga is a tourist attraction.</p>
+    </section>
+
+    <section>
+      <h2>Demographics</h2>
+      <p>Historical population:</p>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Pop.</th>
+          <th>±%</th>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>3,690</td>
+          <td>—</td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </table>
+      <p class="gho">As of 2001 India census,Ghoga had a population of 3766. Males constitute 54% of the population and
+        females 46%. Ghoga has an average literacy rate of 68%, higher than the national average of 59.5%: male literacy
+        is 74%, and female literacy is 60%. In Ghoga, 16% of the population is under 6 years of age.
+
+      </p>
+    </section>
+    <section>
+      <h2>Population (2011)</h2>
+      <p>Total: 3,690</p>
+      <p class="gho">Ghogha is a Census Town city in district of Bhavnagar, Gujarat. The Ghogha Census Town has
+        population of 12,208 of which 5,970 are males while 6,238 are females as per report released by Census India
+        2011.
+
+        Population of Children with age of 0-6 is 1552 which is 12.71 % of total population of Ghogha (CT). In Ghogha
+        Census Town, Female Sex Ratio is of 1045 against state average of 919. Moreover Child Sex Ratio in Ghogha is
+        around 918 compared to Gujarat state average of 890. Literacy rate of Ghogha city is 80.34 % higher than state
+        average of 78.03 %. In Ghogha, Male literacy is around 89.21 % while female literacy rate is 72.01 %.
+
+        Ghogha Census Town has total administration over 2,700 houses to which it supplies basic amenities like water
+        and sewerage. It is also authorize to build roads within Census Town limits and impose taxes on properties
+        coming under its jurisdiction.
+      </p>
+    </section>
+
+    <section>
+      <div class="location">
+        <div class="hw">
+          <h2>Location in India</h2>
+          <p>Coordinates: 21.6870° N, 72.2748° E</p>
+          <p>Country: India</p>
+          <p>State: Delhi</p>
+          <p>District: North Delhi</p>
+          <p>Elevation: 217 meters </p>
+          <h2>Map location of Ghoga</h2>
+        </div>
+        <div class="gmap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13981.347680792358!2d77.05297705000001!3d28.828827599999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da856c53a7b3f%3A0x5ca110d1db31b0ae!2sGhoga%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1708111544291!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg">
+        <div id="bgg">
+          <p style="background-image: url('img/bg2.jpg');"></p>
+        </div>
+        <h2>Education</h2>
+        <p>Bankner has many types of education with various government schools, public or private schools.
+        </p>
+
+
+        </ul>
+        <h3>Govt. Schools</h3>
+        <ul>
+          <li>Government Senior Secondary School </li>
+          <li>MCD Primary School</li>
+          <!-- Add more schools as needed -->
+        </ul>
+
+        <h3>Private Schools</h3>
+        <ul>
+          <li>Rama Devi public School</li>
+          <li>Sant Ganga Ram School Delhi</li>
+          <!-- Add more schools as needed -->
+        </ul>
+
+      </div>
+    </section>
+    <div class="village">
+      <section>
+        <h2>Neighborhood Villages</h2>
+        <ul>
+          <li> Shah Pur Garhi</li>Kham Pur
+          <li>Khampur</li>
+          <li>Kureni</li>
+          <li>Raja Pur Kalan</li>
+
+
+          <!-- Add more villages as needed -->
+        </ul>
+      </section>
+      <section>
+        <h2>Languages</h2>
+        <p>Official: Hindi, English</p>
+      </section>
+
+      <section>
+        <h2>Time zone</h2>
+        <p>UTC+5:30 (IST)</p>
+      </section>
+      <section>
+        <h2>Tools</h2>
+        <p>Coordinates: <a href="https://indiamapia.com/North_West_Delhi/Ghoga.html">28.8317° N, 77.0489° E</a></p>
+      </section>
+    </div>
+
+    <article>
+
+      <p>Visit <a href="https://en.wikipedia.org/wiki/Ghoga">Ghoga,
+          India (disambiguation)</a> for more info.</p>
+    </article>
+    <footer>
+      <div class="container">
+
+        <!--======= FOOTER ROW =========-->
+        <div class="row">
+          <div class="col-md-6">
+
+            <!--======= FOOTER 1 =========-->
+            <ul class="row">
+
+              <!--======= KEEP IN TOUCH =========-->
+              <li class="col-sm-6">
+
+                <!--======= ADDRESS =========-->
+                <h6>Contact us</h6>
+                <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+                  Unnat Bharat Abhiyan, NIT Delhi, Delhi
+                </p>
+                <p><i class="fa fa-phone fa-lg"></i>(+91) 83472 57726</p>
+                <p><i class="fa fa-envelope fa-lg"></i>uba@nitdelhi.ac.in</p>
+              </li>
+
+              <!--======= USEFULL LINKS =========-->
+              <li class="col-sm-6 padding-l-60">
+                <h6>useful links</h6>
+                <ul class="links">
+                  <li><a href="https://nitdelhi.ac.in/">NIT Delhi</a></li>
+                  <li><a href="http://unnatbharatabhiyan.gov.in/">UBA IIT Delhi</a></li>
+                  <li><a href="StudentTeam.html">Student Team</a></li>
+                  <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!--======= FOOTER ROW 2 =========-->
+          <div class="col-md-6">
+            <ul class="row">
+
+              <!--======= LATEST TWEET =========-->
+              <li class="col-sm-6">
+                <div class="tweet">
+                  <h6>Latest Events</h6>
+                  <p>Winter School 2020 is just round the corner! Visit
+                    the link to learn more and register.</p>
+                  <a href="#.">www.facebook.com/winterschool.ubaiitr/ </a>
+                  <span><i class="fa fa-facebook-square"></i> Updated:
+                    January 12, 2020</span>
+                </div>
+              </li>
+
+              <!--======= DONATION =========-->
+              <li class="col-sm-6 padding-l-60">
+                <h6>Pages</h6>
+                <ul class="links">
+                  <!--<li><a href="Gallery.html">Gallery</a></li>-->
+                  <!--<li><a href="About.html">About the site</a></li>-->
+                  <li><a href="https://www.facebook.com/uba.iitroorkee/">Facebook
+                      Page</a></li>
+                  <li><a href="https://www.instagram.com/uba_nitdelhi/">Instagram
+                      Page</a></li>
+                  <!-- <p><a href="docs/Newsletter2.pdf" class="btn">Newsletter</a></p> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--======= FOOTER ROW 2 =========-->
+        </div>
+        <hr style="width: 100%; height:1px;">
+        <div class="container-fluid">
+
+          <a href="https://www.facebook.com/uba.iitroorkee/"
+            target="_blank"><!-- <i class="fa fa-facebook fa-2x"></i> -->
+            <div class="fa fa-facebook fa-2x"></div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/unnat-bharat-abhiyan-cell-nit-delhi-7530b425b/"
+            target="_blank"><!-- <i class="fa fa-twitter fa-2x "></i> -->
+            <div class=" fa fa-linkedin fa-2x"></div>
+          </a>
+
+          <a href="https://www.instagram.com/uba_nitdelhi/"
+            target="_blank"><!-- <i class="fa fa-instagram fa-2x"> </i> -->
+            <div class="fa fa-instagram fa-2x"></div>
+          </a>
+
+        </div>
+      </div>
+
+      <!--======= RIGHTS =========-->
+      <div class="rights">
+        <p class="text-uppercase">Site developed by
+          <a href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/" target="_blank"> Ayush Dokania</a> |
+          <a href="https://www.linkedin.com/in/deepak-gupta-b244391b9/" target="_blank">Deepak Gupta</a> |
+          <a href="https://www.linkedin.com/in/ankit-kumar-3a66a422b" target="_blank">Ankit Kumar</a>
+          </br> Copyright © 2023 NITD. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+
+
+
+  </body>
+
+</html>

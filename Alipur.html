@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="./css/about.css">
+                <link rel="stylesheet" href="./css/style.css">
+                <link rel="stylesheet" href="./css/animate.css">
+                <link rel="stylesheet" href="./css/bootstrap.css.map">
+                <link rel="stylesheet" href="./css/bootstrap.min.css">
+                <link rel="stylesheet" href="./css/font-awesome.min.css">
+                <link rel="stylesheet" href="./css/main.css">
+                <link rel="stylesheet" href="./css/responsive.css">
+                <title>About</title>
+           
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alipur, Delhi</title>
+</head>
+<style>
+        /* Body */
+        /* Body */
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+        }
+
+        /* Header */
+        h1 {
+                text-align: center;
+                margin-top: 20px;
+                color: #333;
+        }
+
+        /* Navigation */
+        nav ul {
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+        }
+
+        nav ul li {
+                display: inline;
+                margin-right: 10px;
+        }
+
+        /* Article and Section */
+        article,
+        section {
+                background-color: #fff;
+                padding: 20px;
+                margin-top: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Links */
+        a {
+                color: #007bff;
+                text-decoration: none;
+        }
+
+        a:hover {
+                text-decoration: underline;
+        }
+
+        /* Table */
+        table {
+                width: 100%;
+                border-collapse: collapse;
+        }
+
+        th,
+        td {
+                border: 1px solid #ddd;
+                padding: 8px;
+        }
+
+        th {
+                background-color: #f2f2f2;
+                text-align: left;
+        }
+
+        /* Subheadings */
+        h2,
+        h3 {
+                color: #333;
+        }
+        h2{     margin-top: -19px;
+               padding-top: 2px;
+                font-weight: bold;
+                font-style: normal;
+        }
+
+        /* List Items */
+        ul {
+                list-style-type: disc;
+                margin-left: 20px;
+        }
+
+        /* Paragraphs */
+        p {
+                line-height: 1.5;
+        }
+
+        .alipur h1 {
+                margin-top: 4px;
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color:#0c0c0cd2;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                
+                
+        }
+        section{
+                background: #f1f7ff;
+      font-style: italic;
+
+        }
+        
+        body{
+      padding: 0;
+      margin: 0;
+      background-color: floralwhite;
+  }
+ 
+  /* h1{
+      margin-top: 50px;
+      margin-left: 210px;
+      font-size: 60px;
+      font-family: 'Karla', sans-serif;
+      font-weight: lighter;
+  } */
+ 
+  .slider-frame{
+      overflow: hidden;
+      height: 600px;
+      width: 100%;
+     
+      margin-top: 10px;
+      
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+  }
+ 
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 2400px;}
+      90% {left: 2400px;}
+      100% {left:0px;}
+  }
+ 
+  @-webkit-keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 2400px;}
+      90% {left: 2400px;}
+      100% {left:0px;}
+  }
+ 
+  .slide-images{
+      width:6000px;
+      height: 800px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 33s;
+      animation-duration: 33s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+      
+  }
+ 
+  .img-container{
+      height: 800px;
+      width: 1250px;
+      position: relative;
+      float: left;
+  }
+  .location{
+        margin-left: 10px;
+        display: flex;
+        box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+  
+  }
+  .hw{
+         display: flex;
+        justify-content: left;
+        flex-direction: column;
+        padding-left: 15%;
+         margin-right: 15%; 
+         width: 100%;
+    height: 450px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+  }
+  
+  .bg {
+        background-image: url(img/ubabg22.png);
+        color: #ffffff;
+        
+  }
+   /* .bg #bgg {
+        
+        
+        opacity: 30%;
+        
+  } */
+  .village{
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        background-color: #e1e7f5;
+        /* padding-left: 15%;
+         margin-right: 15%;  */
+         box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+
+  }
+ 
+  .ali{
+
+       /* /* border-color: #000000;
+        border-width: 20px;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px; */
+        /* margin-left: 20px;  */
+        width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #888888;
+    
+  }
+  @media only screen and (max-width: 480px) {
+  .location {
+    display: block;
+  
+  }
+}
+  @media only screen and (max-width: 480px) {
+  .village {
+    display: block;
+   
+  
+  }
+}
+      
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+        
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Alipur, Delhi</title>
+</head>
+
+<div class="navbar1">
+        <p> Unnat Bharat Abhiyan  |  NIT Delhi </p> 
+        <p> mail: uba@nitdelhi.ac.in</p>
+        
+      </div>
+    
+    
+      <div class="navbar2">
+    
+        <div class="image1-names">
+          <a href="#"><img class="logo1" src="img/NITD_logo.jpg"></a>
+        </div>
+    
+        <div class="header-names">
+          <h1> National Institute of Technology Delhi </h1>
+          <h2> UNNAT BHARAT ABHIYAN </h2>
+          <p>(A movement for progressive india) </br> A flagship programmes of ministry of Education, Government of India</p>
+        </div>
+    
+        <div class="image2-names">
+          <a href="#"><img class="logo2" src="images/logo-left.png "></a>
+        </div>
+    
+        <!--======= NAVIGATION =========-->
+          
+        <!-- for dropdown anmation:
+        <header id="header" class="fixed-top transparent"> -->
+      
+    
+      <header id="header">
+        
+        <nav id="navBar">
+          <div class="container">
+            <ul id="ownmenu" class="ownmenu">
+              <li class="active ownmenu-item"><a href="./index.html">Home</a> </li>
+              <li class="ownmenu-item">
+                <li class="ownmenu-item"><a href="about.html">About</a></li>
+                <ul class="dropdown">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </li>
+              <li class="dropdown ownmenu-item">
+                <a href="#" class="dropdown-toggle">Initiatives</a>
+    
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Initiatives.html">Education </a>
+                  <a class="dropdown-item" href="Initiatives.html">Health</a>
+                  <a class="dropdown-item" href="Initiatives.html">Technology </a>
+                  <a class="dropdown-item" href="Initiatives.html">Awareness</a>
+                  <a class="dropdown-item" href="Initiatives.html">Other </a>
+                </div>
+    
+              </li>
+              <li class="dropdown ownmenu-item">
+                <a href="#" class="dropdown-toggle">Villages</a>
+    
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Alipur.html">Alipur</a>
+                  <a class="dropdown-item" href="Bhorghad.html">Bhorgarh</a>
+                  <a class="dropdown-item" href="Ghogha.html">Ghogha</a>
+                  <a class="dropdown-item" href="Bankner.html">Bankner</a>
+                  <a class="dropdown-item" href="Tikri_khurd.html">Tikri khurd</a>
+                </div>
+    
+              </li>
+              
+              <li class="ownmenu-item"><a href="#">Gallery</a></li>
+              <li class="ownmenu-item"><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- <hr class="header-hr"> -->
+      </header>
+<body>  <div class="alipur">    
+        <h1>Alipur, Delhi</h1>
+</div>
+        <!-- <nav>
+        <ul>
+            <li><a href="#Article">Article</a></li>
+            <li><a href="#Talk">Talk</a></li>
+            <li><a href="#Read">Read</a></li>
+            <li><a href="#Edit">Edit</a></li>
+            <li><a href="#ViewHistory">View history</a></li>
+        </ul>
+    </nav> -->
+
+        <section>
+                <h2>Alipur</h2>
+              
+                        <!-- <aside><img  width="100%" height="400px" src="img/alipur-delhi-img1-1.jpg" alt=""></aside> -->
+                        <body>
+                                
+                       
+                        <div class="slider-frame">
+                                <div class="slide-images">
+                                        <div class="img-container">
+                                            <img height="600px " width="1500px"  src="img/alipur3.2.jpg">
+                                        </div>
+                                        <div class="img-container">
+                                            <img height="600px " width="1500px" src="img/vidya-niketan-senior-secondary-school-alipur-gurgaon-senior-secondary-schools-5x4teq34wv.avif">
+                                        </div>
+                                        <div class="img-container">
+                                            <img height="600px " width="1500px" src="img/bakoli.jpg">
+                                        </div>
+                                        <div class="img-container">
+                                            <img height="600px " width="1500px"  src="img/Sant_Gyaneshwar_Model_School_1528_Building_1.jpg">
+                                        </div>
+                                </div>
+                            </div>
+                        </body>
+                <p class="ali">
+                        
+                        Alipur is the administrative headquarters and a sub-division of North Delhi district in the state of
+                        Delhi, India. It is surrounded by the localities of Bawana, Narela, Budhpur, Bakoli and
+                        Mukhmelpur. Alipur comes under the Narela constituency. The nearest metro station is
+                        Jahangirpuri Metro Station. Alipur is situated on the Delhi-Amritsar National Highway 1. Sharad
+                        Chauhan is the present MLA of Narela constituency. Yogesh Rana is the present Nigam Parshad of
+                        Alipur.</p>
+               
+        </section>
+
+        <section>
+                <h2>Demographics</h2>
+                <p>Historical population:</p>
+                <table>
+                        <tr>
+                                <th>Year</th>
+                                <th>Pop.</th>
+                                <th>±%</th>
+                        </tr>
+                        <tr>
+                                <td>1981</td>
+                                <td>6,735</td>
+                                <td>—</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                </table>
+                <p class="ali">As of 2001 India census, Alipur had a population of 16,623. Males constitute 58% of the population
+                        and females, 42%. It has an average literacy rate of 68%, higher than the national average of
+                        59.5%; 63% for males and 37% for females. 15% of the population is below six years of age.
+                        Alipur is home to many migrants from all over India, similar to the rest of Delhi, which has led
+                        to a spike in the population in the last decade.</p>
+        </section>
+        <section>
+                <h2>Population (2001)</h2>
+                <p>Total: 16,623</p>
+                <p class="ali">As of 2001 India census, Alipur had a population of 16,623. Males constitute 58% of the population
+                        and females, 42%. It has an average literacy rate of 68%, higher than the national average of
+                        59.5%; 63% for males and 37% for females. 15% of the population is below six years of age.
+                        Alipur is home to many migrants from all over India, similar to the rest of Delhi, which has led
+                        to a spike in the population in the last decade.</p>
+        </section>
+
+        <section>
+                <div class="location">
+               <div class="hw"><h2>Location in India</h2>
+                <p>Coordinates: 28.80°N 77.150°E</p>
+                <p>Country: India</p>
+                <p>State: Delhi</p>
+                <p>District: North Delhi</p>
+                <p>Elevation: 209 m (686 ft)</p></div> 
+                <aside class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27970.59662180848!2d77.13603970000001!3d28.799399899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d00468e14b6e5%3A0x7ec2343edae88419!2sAlipur%2C%20Delhi!5e0!3m2!1sen!2sin!4v1707682991246!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </aside>
+                <!-- <h2>Map of Delhi showing location of Alipur</h2> -->
+               
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27970.59662180848!2d77.13603970000001!3d28.799399899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d00468e14b6e5%3A0x7ec2343edae88419!2sAlipur%2C%20Delhi!5e0!3m2!1sen!2sin!4v1707682991246!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 -->
+        </div>
+      
+
+        <section>
+                <div class="bg">
+                        <div id="bgg">
+                        <p style="background-image: url('img/bg2.jpg');"></p>
+                </div>
+                <h2>Education</h2>
+                <p>Alipur has many types of education with various government schools, public or private schools,
+                        colleges, university and institutions.</p>
+
+                <h3>University</h3>
+                <ul>
+                        <li>Swami Sharadhanand College DELHI UNIVERSITY</li>
+                        <li>AIIPPHS STATE GOVERNMENT UNIVERSITY DELHI</li>
+                </ul>
+
+                <h3>College</h3>
+                <ul>
+                        <li>Swami Shraddhanand College</li>
+                </ul>
+
+                <h3>Govt. Schools</h3>
+                <ul>
+                        <li>Government Boys Senior Secondary School</li>
+                        <!-- Add more schools as needed -->
+                </ul>
+
+                <h3>Private Schools</h3>
+                <ul>
+                        <li>Rishikul Vidyapeeth</li>
+                        <!-- Add more schools as needed -->
+                </ul>
+
+                <h3>Institutions</h3>
+                <ul>
+                        <li>ALL INDIA INSTITUTE OF PUBLIC & PHYSICAL HEALTH SCIENCES (AIIPPHS)</li>
+                        <!-- Add more institutions as needed -->
+                </ul>
+        </div>
+        </section>
+       <div class="village">
+        <section>
+                <h2>Neighborhood Villages</h2>
+                <ul>
+                        <li>BudhPur</li>
+                        <li>BijaPur</li>
+                        <li>Holambi Khurd</li>
+                        <!-- Add more villages as needed -->
+                </ul>
+        </section>
+        <section>
+                <h2>Languages</h2>
+                <p>Official: Hindi, English</p>
+        </section>
+
+        <section>
+                <h2>Time zone</h2>
+                <p>UTC+5:30 (IST)</p>
+                <p>Coordinates: <a href="https://en.wikipedia.org/wiki/Geographic_coordinate_system">28.80°N
+                        77.150°E</a></p>
+        </section>
+</div>
+     
+
+        <article>
+                <!-- <p>From Wikipedia, the free encyclopedia</p> -->
+                <p>Visit <a href="https://en.wikipedia.org/wiki/Alipur,_India_(disambiguation)">Alipur,
+                                India (disambiguation)</a> for more info.</p>
+        </article>
+        <footer>
+                <div class="container">
+            
+                  <!--======= FOOTER ROW =========-->
+                  <div class="row">
+                    <div class="col-md-6">
+            
+                      <!--======= FOOTER 1 =========-->
+                      <ul class="row">
+            
+                        <!--======= KEEP IN TOUCH =========-->
+                        <li class="col-sm-6">
+            
+                          <!--======= ADDRESS =========-->
+                          <h6>Contact us</h6>
+                          <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+                            Unnat Bharat Abhiyan, NIT Delhi, Delhi
+                          </p>
+                          <p><i class="fa fa-phone fa-lg"></i>(+91) 83472 57726</p>
+                          <p><i class="fa fa-envelope fa-lg"></i>uba@nitdelhi.ac.in</p>
+                        </li>
+            
+                        <!--======= USEFULL LINKS =========-->
+                        <li class="col-sm-6 padding-l-60">
+                          <h6>useful links</h6>
+                          <ul class="links">
+                            <li><a href="https://nitdelhi.ac.in/">NIT Delhi</a></li>
+                            <li><a href="http://unnatbharatabhiyan.gov.in/">UBA IIT Delhi</a></li>
+                            <li><a href="StudentTeam.html">Student Team</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+            
+                    <!--======= FOOTER ROW 2 =========-->
+                    <div class="col-md-6">
+                      <ul class="row">
+            
+                        <!--======= LATEST TWEET =========-->
+                        <li class="col-sm-6">
+                          <div class="tweet">
+                            <h6>Latest Events</h6>
+                            <p>Winter School 2020 is just round the corner! Visit
+                              the link to learn more and register.</p>
+                            <a href="#.">www.facebook.com/winterschool.ubaiitr/ </a>
+                            <span><i class="fa fa-facebook-square"></i> Updated:
+                              January 12, 2020</span>
+                          </div>
+                        </li>
+            
+                        <!--======= DONATION =========-->
+                        <li class="col-sm-6 padding-l-60">
+                          <h6>Pages</h6>
+                          <ul class="links">
+                            <!--<li><a href="Gallery.html">Gallery</a></li>-->
+                            <!--<li><a href="About.html">About the site</a></li>-->
+                            <li><a href="https://www.facebook.com/uba.iitroorkee/">Facebook
+                                Page</a></li>
+                            <li><a href="https://www.instagram.com/uba_nitdelhi/">Instagram
+                                Page</a></li>
+                            <!-- <p><a href="docs/Newsletter2.pdf" class="btn">Newsletter</a></p> -->
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--======= FOOTER ROW 2 =========-->
+                  </div>
+                  <hr style="width: 100%; height:1px;">
+                  <div class="container-fluid">
+            
+                    <a href="https://www.facebook.com/uba.iitroorkee/" target="_blank"><!-- <i class="fa fa-facebook fa-2x"></i> -->
+                      <div class="fa fa-facebook fa-2x"></div>
+                    </a>
+            
+                    <a href="https://www.linkedin.com/in/unnat-bharat-abhiyan-cell-nit-delhi-7530b425b/" target="_blank"><!-- <i class="fa fa-twitter fa-2x "></i> -->
+                      <div class=" fa fa-linkedin fa-2x"></div>
+                    </a>
+            
+                    <a href="https://www.instagram.com/uba_nitdelhi/" target="_blank"><!-- <i class="fa fa-instagram fa-2x"> </i> -->
+                      <div class="fa fa-instagram fa-2x"></div>
+                    </a>
+            
+                  </div>
+                </div>
+            
+                <!--======= RIGHTS =========-->
+                <div class="rights">
+                  <p class="text-uppercase">Site developed by
+                    <a href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/" target="_blank"> Ayush Dokania</a> |
+                    <a href="https://www.linkedin.com/in/deepak-gupta-b244391b9/" target="_blank">Deepak Gupta</a> |
+                    <a href="https://www.linkedin.com/in/ankit-kumar-3a66a422b" target="_blank">Ankit Kumar</a>
+                    </br> Copyright © 2023 NITD. All Rights Reserved.
+                  </p>
+                </div>
+              </footer>
+            
+            
+            
+
+</body>
+
+</html>
